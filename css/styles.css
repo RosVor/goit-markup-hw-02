@@ -1,9 +1,15 @@
 .body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #FFFFFF;
   color: #434455 
   }
 
+.link {
+  text-decoration: none;
+}
+.list{
+  padding-left: 40px;
+}
 .header{
   background: #FFFFFF;
   border-bottom: 1px solid #E7E9FC;
@@ -12,8 +18,8 @@
   font-weight: 800 ;
   }
 
-.list{
-  padding-left: 40px;
+.address-list{
+  font-style: normal;
 }
 
 .header-logo-studio {
@@ -47,6 +53,7 @@
 }
 .header-list-item {
   margin-left: 40px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
