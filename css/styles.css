@@ -78,11 +78,11 @@ body {
   color:#434455;
 }
 
-.adress-item-link:is(:hover, :focus) {
+.header-list-item:is(:hover, :focus) {
   color: #404bbf ;
 }
 
-.adress-item-link:is(:hover, :active) {
+.header-list-item:is(:hover, :active) {
   color: #404bbf ;
 }
 
