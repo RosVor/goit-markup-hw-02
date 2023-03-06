@@ -4,7 +4,7 @@ body {
   color: #434455 
   }
 
-link {
+.link {
   text-decoration: none;
   color: #2E2F42;
 }
@@ -270,7 +270,13 @@ margin-left: 156px;
   gap: 24px;
 }
 .button-portfolio {
-  box-sizing: border-box;
+  color: #4D5AE5;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -283,6 +289,21 @@ margin-left: 156px;
   order: 2;
   flex-grow: 0;
 }
+
+.button-portfolio:is(:hover, :focus) {
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background: #404BBF;
+}
+
 .navigation-row-list {
   text-decoration: none
 }
