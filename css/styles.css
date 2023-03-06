@@ -17,6 +17,10 @@ link {
   display: flex;
   }
 
+.address-main {
+  font-style: normal;
+}
+
 .address-list{
   font-style: normal;
 }
