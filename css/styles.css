@@ -17,14 +17,6 @@ body {
   display: flex;
   }
 
-.address-main {
-  font-style: normal;
-}
-
-.address-list{
-  font-style: normal;
-}
-
 .header-logo-studio {
   text-decoration: none ;
   font-family: 'Raleway', sans-serif;
@@ -75,11 +67,19 @@ body {
   text-decoration:none;
 }
 
-.address-item {
+.adress-item-link{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color:#434455;
+}
+
+.adress-item-link:is(:hover, :focus) {
+  color: #404bbf ;
+}
+
+.adress-item-link:is(:hover, :active) {
+  color: #404bbf ;
 }
 
 .solutions {
