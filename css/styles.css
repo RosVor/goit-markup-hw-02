@@ -62,11 +62,15 @@ body {
   flex-grow: 0;
 }
 
-.header-list-item:is(:hover, :focus) {
+.header-link {
+
+}
+
+.header-link:is(:hover, :focus) {
   color: #404bbf ;
 }
 
-.header-list-item:is(:hover, :active) {
+.header-link:is(:hover, :active) {
   color: #404bbf ;
 }
  
@@ -84,6 +88,7 @@ body {
 }
 
 .adress-item-link{
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
