@@ -61,6 +61,14 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
+.header-list-item:is(:hover, :focus) {
+  color: #404bbf ;
+}
+
+.header-list-item:is(:hover, :active) {
+  color: #404bbf ;
+}
  
 .header-link {
   color:#2e2f42;
@@ -71,6 +79,10 @@ body {
   font-style: normal;
 }
 
+.address-list{
+  font-style: normal;
+}
+
 .adress-item-link{
   font-size: 16px;
   line-height: 1.5;
@@ -78,11 +90,11 @@ body {
   color:#434455;
 }
 
-.header-list-item:is(:hover, :focus) {
+.adress-item-link:is(:hover, :focus) {
   color: #404bbf ;
 }
 
-.header-list-item:is(:hover, :active) {
+.adress-item-link:is(:hover, :active) {
   color: #404bbf ;
 }
 
