@@ -4,8 +4,9 @@ body {
   color: #434455 
   }
 
-.link {
+link {
   text-decoration: none;
+  color: #2E2F42;
 }
 .list{
   padding-left: 40px;
@@ -23,7 +24,7 @@ body {
 }
 
 .header-logo-studio {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
