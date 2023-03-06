@@ -9,7 +9,7 @@ body {
   color: #2E2F42;
 }
 .list{
-  padding-left: 40px;
+  font-style: normal
 }
 .header{
   background: #FFFFFF;
@@ -75,7 +75,7 @@ body {
   text-decoration:none;
 }
 
-.adress-tag{
+.adress-main{
   font-style: normal;
 }
 
