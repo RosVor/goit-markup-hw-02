@@ -112,13 +112,6 @@ body {
   text-transform: capitalize;
 }
 
-.doing-item {
-  box-sizing: border-box;
-  background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229,   0.1));
-  background-blend-mode: soft-light, normal;
-  border: 1px solid #E7E9FC;
-}
-
 .team-title {
   font-size: 36px;
   line-height: 1.11;
