@@ -90,7 +90,7 @@ body {
 
 .solutions-button:is(:hover, :focus) {
   color: #4D5AE5;
-  background-color: none;
+  background: #F4F4FD;
 }
 
 .solutions-row-name {
@@ -185,6 +185,7 @@ body {
 }
 
 .button-portfolio {
+  background: #F4F4FD;
   color: #4D5AE5;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
