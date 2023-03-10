@@ -89,7 +89,8 @@ body {
 }
 
 .solutions-button:is(:hover, :focus) {
-  background: #404BBF;
+  color: #4D5AE5;
+  background-color: none;
 }
 
 .solutions-row-name {
