@@ -69,7 +69,6 @@ body {
 .solutions-title {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
@@ -109,7 +108,6 @@ body {
 .doing-title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -124,14 +122,11 @@ body {
 .team-title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .team-item {
-  justify-content: center;
-  align-items: center;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
@@ -140,14 +135,12 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
 .team-descr {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
