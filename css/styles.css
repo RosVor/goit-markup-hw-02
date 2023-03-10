@@ -89,7 +89,7 @@ body {
 }
 
 .solutions-button:is(:hover, :focus) {
- 
+  background: #404BBF;
 }
 
 .solutions-row-name {
@@ -200,8 +200,8 @@ body {
 }
 
 .button-portfolio:is(:hover, :focus) {
-  color: #FFFFFF;
-  background: #404BBF;
+  color: #fff;
+  background-color: #4D5AE5;
 }
 
 .navigation-row-list {
