@@ -1,12 +1,27 @@
+:root{
+  --main-background-color:#FFFFFF;
+  --secondary-background-color:#F4F4FD;
+  --alternative-background-color: #2E2F42;
+  --web-color:#4D5AE5;
+  --studio-color:#2E2F42; 
+  --footer-descr-color:#F4F4FD;
+  --link-focus-color:#404bbf;
+  --main-title-color:#2E2F42; 
+  --secondary-title-color:#434455 ;
+  --alternative-title-color:#FFFFFF;
+  --main-button-color:#4D5AE5;
+  --secondary-button-color:#F4F4FD;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  background: #FFFFFF;
-  color: #434455 
+  background: var(-main-background-color);
+  color: var(--secondary-title-color); 
   }
 
 .link {
   text-decoration: none;
-  color: #2E2F42;
+  color:var(--main-title-color);
 }
 .list{
   font-style: normal;
@@ -14,10 +29,27 @@ body {
 }
 .header{
   border-bottom: 1px solid #E7E9FC;
+  display: flex;
   }
 
+.nav-list{
+  display: flex;
+  margin-left: 156px;
+  margin-top: 25.5px;
+  margin-bottom: 25.5px;
+}
+
+.header-list {
+ margin-top: 0;
+ margin-left: 76px;
+}
+
+.header-list-item{
+  padding-left: 40px;
+}
+
 .header-logo-studio {
-  color: #2E2F42;
+  color: var(--studio-color);
   }
   
 .header-logo {
@@ -28,17 +60,21 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: var(--web-color);
 }
 
 .header-link:is(:hover, :focus) {
-  color: #404bbf ;
+  color: var(--link-focus-color);
 }
 
 .header-link:is(:hover, :active) {
-  color: #404bbf ;
+  color: var(--link-focus-color) ;
 }
- 
+
+.header-list{
+  display: flex;
+}
+
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -46,24 +82,38 @@ body {
   letter-spacing: 0.02em;
 }
 
+.address-main {
+  justify-content: flex-end;
+}
+
+.address-list {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
 .adress-item-link{
+  padding-left: 40px;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#434455;
+  color:var(--secondary-title-color);
 }
 
 .adress-item-link:is(:hover, :focus) {
-  color: #404bbf ;
+  color: var(--link-focus-color);
 }
 
 .adress-item-link:is(:hover, :active) {
-  color: #404bbf ;
+  color: var(--link-focus-color);
 }
 
 .solutions {
-  background: #2E2F42;
+  padding-top: 188px;
+  padding-bottom:292px;
+  background: var(--alternative-background-color);
+  text-align: center;
 }
 
 .solutions-title {
@@ -71,7 +121,7 @@ body {
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: var(--alternative-title-color);
 }
 
 .solutions-button {
@@ -80,22 +130,38 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4D5AE5;
+  color:var(--alternative-title-color);
+  background: var(--main-button-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 1px;
   cursor: pointer;
+  padding: 16px 32px;
 }
 
 .solutions-button:is(:hover, :focus) {
-  color: #4D5AE5;
-  background: #F4F4FD;
+  color: var(--main-button-color);
+  background: var(--secondary-button-color);
+}
+
+.solutions-row {
+  margin-top: 120px;
+}
+
+.solutions-row-list {
+  justify-content: center;
+  display: flex;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+.solutions-row-item {
+  padding: 8px 24px;
 }
 
 .solutions-row-name {
   font-size: 20px;
   font-weight: 500;
-  color: #2e2f42 ;
+  color: var(--main-title-color);
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
@@ -104,35 +170,68 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-title-color);
+}
+
+.doing {
+  margin-top: 120px;
+}
+
+.doing-list {
+justify-content: center;
+display: flex;
+margin:72px 156px 120px 156px;
+}
+
+.doing-list-item {
+  padding-left: 24px;
 }
 
 .doing-title {
   text-align: center;
-  color: #2e2f42;
+  color:var(--main-title-color);
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
+.team{
+  margin-top: 120px;
+}
+
 .team-title {
   text-align: center;
-  color: #2e2f42;
+  color: var(--main-title-color);
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.team {
+  background:var(--secondary-background-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team-list{
+  justify-content: center;
+  display: flex;
+  margin: 72px 156px 120px 156px;
+  padding-top: 24px;
 }
 
 .team-item {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  padding-left: 24px;
+  background-color: var(--main-background-color);
 }
 
 .team-name {
   text-align: center;
-  color: #2e2f42;
+  color: var(--main-title-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -140,17 +239,20 @@ body {
 }
 
 .team-descr {
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .footer {
-  background: #2E2F42;
+  padding: 101.5px 1240px 100px 156px;
+  background:var(--alternative-background-color);
+  ;
 }
 
 .footer-logo-studio{
-  color: #F4F4FD;
+  color: var(--secondary-button-color);
 }
 
 .footer-logo {
@@ -161,7 +263,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: var(--web-color);
  
 }
 
@@ -169,12 +271,18 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #E7E9FC;
+  color: var(--footer-descr-color);
+}
+
+.button-list {
+display: flex;
+margin: 168px 427px 72px 427px;
+justify-content: center;
 }
 
 .button-portfolio {
-  background: #F4F4FD;
-  color: #4D5AE5;
+  background:var(--secondary-background-color);
+  color: var(--main-button-color);
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -183,11 +291,24 @@ body {
   letter-spacing: 0.04em;
   border: 1px solid #E7E9FC;
   border-radius: 4px;
+  padding: 12px 24px 12px 24px;
+}
+
+.button-list-item {
+  padding-left: 24px;
 }
 
 .button-portfolio:is(:hover, :focus) {
-  color: #fff;
-  background-color: #4D5AE5;
+  color:var(--alternative-title-color);
+  background-color: var(--main-button-color);
+}
+
+.prtf-row-list {
+ 
+}
+
+.button-portfolio {
+pad: ;
 }
 
 .navigation-row-list {
@@ -205,5 +326,5 @@ letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-title-color);
 }
