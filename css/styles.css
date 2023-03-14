@@ -26,10 +26,13 @@ body {
 .list{
   font-style: normal;
   list-style: none;
+  padding-left: 0px;
 }
 .header{
   border-bottom: 1px solid #E7E9FC;
   display: flex;
+  justify-content: space-between;
+  padding-right: 156px
   }
 
 .nav-list{
@@ -150,8 +153,6 @@ body {
 .solutions-row-list {
   justify-content: center;
   display: flex;
-  margin-left: 156px;
-  margin-right: 156px;
 }
 
 .solutions-row-item {
@@ -167,6 +168,7 @@ body {
 }
 
 .solutions-row-descr { 
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -196,8 +198,10 @@ margin:72px 156px 120px 156px;
   text-transform: capitalize;
 }
 
-.team{
-  margin-top: 120px;
+.team {
+  background:var(--secondary-background-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -209,24 +213,20 @@ margin:72px 156px 120px 156px;
   text-transform: capitalize;
 }
 
-.team {
-  background:var(--secondary-background-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .team-list{
   justify-content: center;
   display: flex;
   margin: 72px 156px 120px 156px;
-  padding-top: 24px;
+  padding-left: 0px;
 }
 
 .team-item {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  padding-left: 24px;
+  padding-bottom: 32px;
   background-color: var(--main-background-color);
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .team-name {
@@ -268,6 +268,7 @@ margin:72px 156px 120px 156px;
 }
 
 .footer-descr {
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -276,7 +277,7 @@ margin:72px 156px 120px 156px;
 
 .button-list {
 display: flex;
-margin: 168px 427px 72px 427px;
+margin: 96px 427px 72px 427px;
 justify-content: center;
 }
 
@@ -304,11 +305,22 @@ justify-content: center;
 }
 
 .prtf-row-list {
- 
+  margin: 72px 156px 120px 156px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+   justify-content: center; 
 }
 
-.button-portfolio {
-pad: ;
+.prtf-row-item {
+  background-color: var(-main-background-color);
+  border: 1px solid #E7E9FC;
+  margin: 24px 12px;
+  width: 360px;
+  padding-bottom: 32px;
+}
+
+.prtf-row-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .navigation-row-list {
@@ -316,6 +328,9 @@ pad: ;
 }
 
 .prtf-name{
+margin-top: 32px;
+margin-left: 16px;
+margin-bottom: 4px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -323,6 +338,8 @@ letter-spacing: 0.02em;
 }
 
 .prtf-descr{
+  margin-top: 4px;
+  margin-left: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
