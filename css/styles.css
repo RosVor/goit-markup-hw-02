@@ -165,6 +165,7 @@ body {
   color:var(--alternative-title-color);
   background: var(--main-button-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px;
   border-radius: 4px;
   cursor: pointer;
   padding: 16px 32px;
@@ -175,9 +176,13 @@ body {
   background: var(--secondary-button-color);
 }
 
-.container-solutions-row{
+.solutions-row {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.container-solutions-row{
+
 }
 
 .solutions-row-list{
@@ -205,8 +210,11 @@ body {
   color: var(--secondary-title-color);
 }
 
+.doing {
+  padding-bottom: 120px;
+}
+
 .container-doing {
- padding-bottom: 120px;
  
 }
 
@@ -315,7 +323,7 @@ gap:24px;
 
 .button-list {
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   gap: 24px;
 }
 
